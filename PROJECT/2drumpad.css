@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Raleway:wght@100;400;700&display=swap');
+
+html, body {
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-focus {
+    background-color: #080a18;
+    color: white;
+}
+
+.set1 {
+    width: 950px;
+    height: 437px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 130px;
+}
+
+.k1 {
+    background-color: #FFD700;
+    box-shadow: 3px 3px 5px #8a8b8d;
+    margin-bottom: 10px;
+}
+
+.k2 {
+    background-color: #f0f2f5;
+}
+
+/* .k1:hover {
+    background-color: #eceaea;
+} */
+
+.k1:active {
+    box-shadow: 0px 0px ;
+    margin-top: 10px;
+}
+
+.key {
+    width: 80px;
+    height: 80px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.1;
+    user-select: none;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.row-1 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.row-2 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.row-3 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.row-4 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hide1 {
+    background-color: #f0f2f5;
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    top: 140px;
+    right: 25px;
+}
+
+.hide2 {
+    background-color: white;
+    width: 25px;
+    height: 420px;
+    position: absolute;
+    top: 150px;
+    right: 325px;
+}
+
+.okey1 {
+    background-color: #f0f2f5;
+    width: 25px;
+    height: 80px;
+    position: absolute;
+    top: 154px;
+    left: 350px;
+    border-radius: 5px;
+}
+
+.okey2 {
+    background-color: #f0f2f5;
+    width: 75px;
+    height: 80px;
+    position: absolute;
+    top: 266px;
+    left: 350px;
+    border-radius: 5px;
+}
+
+.okey3 {
+    background-color: #f0f2f5;
+    width: 125px;
+    height: 80px;
+    position: absolute;
+    top: 379px;
+    left: 350px;
+    border-radius: 5px;
+}
+
+#nav-focus {
+    background-color: #f0f2f5;
+}
+
+.navbar {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.500);
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    transition: 0.2s ease;
+}
+
+/* .navbar:hover {
+    background-color: #f0f2f5;
+    color: black;
+    transition: 0.2s;
+} */
+
+.navbar ul {
+    display: flex;
+    margin-right: -13px;
+    padding: 0;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin: 0;
+    padding: 22px;
+    cursor: pointer;
+    user-select: none;
+    color: black;
+}
+
+.navbar li:hover {
+    background-color: #f0f2f55e;
+    color: black;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}

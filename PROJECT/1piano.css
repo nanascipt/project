@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Raleway:wght@100;400;700&display=swap');
+
+html, body {
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo-box {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 640px;
+    left: 749px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+.logo-box img {
+    width: 100%;
+}
+
+.logo-box p {
+    margin-top: 0px;
+    font-size: 12px;
+    color: #FFD700;
+}
+
+.header {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-focus {
+    background-color: #080a18;
+    color: white;
+}
+
+.logo {
+    height: 60%;
+}
+
+.Liv {
+    font-size: 30px;
+    font-weight: bold;
+    color: #b4b4b4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.piano {
+    margin: auto;
+    width: 950px;
+    height: 450px;
+    margin-top: 130px;
+    border-radius: 5px;
+}
+
+.white {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.black {
+    width: 100%;
+    display: flex;
+}
+
+.white-note {
+    background-color: white;
+    width: 67.83px;
+    height: 100%;
+    border: solid 1px;
+    border-collapse: collapse;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.white-note:hover {
+    background-color: #f0f2f5;
+}
+
+.black-note:hover {
+    background-color: #222222;
+}
+
+#c1-note {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#b2-note {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.piano #c1-note, #d1-note, #e1-note, #f1-note, #g1-note, #a1-note, #b1-note, #c2-note, #d2-note, #e2-note, #f2-note, #g2-note, #a2-note, #b2-note {
+    border-right-color: #f2f2f2;
+    border-bottom-color: #f2f2f2;
+    border-top-color: #f2f2f2;
+}
+
+.piano .white div {
+    border-color: rgba(255, 255, 255, 0);
+    
+} 
+
+.piano .black div {
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.white-note p {
+    text-align: center;
+    margin-top: 400px;
+    font-size: 20px;
+    user-select: none;
+}
+
+.black-note p {
+    text-align: center;
+    color: white;
+    margin-top: 235px;
+    font-size: 20px;
+    user-select: none;
+}
+
+.black-note {
+    width: 47.83px;
+    height: 60%;
+    border-collapse: collapse;
+    background-color: #111111;
+    margin-top: -450px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.black-note:nth-child(1) {
+    margin-left: 35px;
+}
+
+.black-note:nth-child(2) {
+    margin-left: 35px;
+}
+
+.black-note:nth-child(3) {
+    margin-left: 70px;
+}
+
+.black-note:nth-child(4) {
+    margin-left: 25px;
+}
+
+.black-note:nth-child(5) {
+    margin-left: 25px;
+}
+
+.black-note:nth-child(6) {
+    margin-left: 70px;
+}
+
+.black-note:nth-child(7) {
+    margin-left: 35px;
+}
+
+.black-note:nth-child(8) {
+    margin-left: 70px;
+}
+
+.black-note:nth-child(9) {
+    margin-left: 25px;
+}
+
+.black-note:nth-child(10) {
+    margin-left: 28px;
+}
+
+#nav-focus {
+    background-color: #f0f2f5;
+}
+
+.navbar {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.500);
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    transition: 0.2s ease;
+}
+
+/* .navbar:hover {
+    background-color: #f0f2f5;
+    color: black;
+    transition: 0.2s;
+} */
+
+.navbar ul {
+    display: flex;
+    margin-right: -13px;
+    padding: 0;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin: 0;
+    padding: 22px;
+    cursor: pointer;
+    user-select: none;
+    color: black;
+}
+
+.navbar li:hover {
+    background-color: #f0f2f55e;
+    color: black;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
