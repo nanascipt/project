@@ -89,8 +89,16 @@ html, body {
     background-color: #f0f2f5;
 }
 
+.white-note:active {
+    background-color: #FFD700;
+}
+
 .black-note:hover {
-    background-color: #222222;
+    background-color: #111111;
+}
+
+.black-note:active {
+    background-color: #FFD700;
 }
 
 #c1-note {
@@ -121,7 +129,7 @@ html, body {
 .white-note p {
     text-align: center;
     margin-top: 400px;
-    font-size: 20px;
+    font-size: 18px;
     user-select: none;
 }
 
@@ -129,7 +137,7 @@ html, body {
     text-align: center;
     color: white;
     margin-top: 235px;
-    font-size: 20px;
+    font-size: 18px;
     user-select: none;
 }
 
@@ -211,7 +219,7 @@ html, body {
 
 .navbar ul {
     display: flex;
-    margin-right: -13px;
+    margin-right: 0px;
     padding: 0;
 }
 

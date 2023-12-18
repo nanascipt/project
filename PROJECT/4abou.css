@@ -65,7 +65,7 @@ html, body {
 }
 
 .arrow-website p {
-    color: black;
+    color: #111111;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,7 @@ html, body {
 }
 
 .arrow-me p {
-    color: black;
+    color: #111111;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ html, body {
     border-bottom-right-radius: 9px;
     border-bottom-left-radius: 9px;
     position: absolute;
-    top: 1099px;
+    top: 1095px;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -99,11 +99,14 @@ html, body {
 }
 
 .ac {
-    width: 50%;
+    width: 40%;
+    position: relative;
+    top: 14px;
 }
 
 .information {
     width: 95.5%;
+    margin-top: 35px;
 }
 
 .information-2 {
@@ -111,6 +114,13 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.information-2 p {
+    position: relative;
+    top: -29px;
 }
 
 .a3-info {
@@ -162,7 +172,7 @@ html, body {
 
 .information-1, .information-2, .information-3 {
     width: 40%;
-    height: 90%;
+    height: 100%;
     background-color: #111111;
     border-radius: 9px;
 }
@@ -217,9 +227,14 @@ html, body {
     font-size: 18px;
 }
 
-.ab {
+.a3 {
     position: relative;
-    top: 100px;
+    top: 88px;
+}
+
+.a4 {
+    position: relative;
+    top: 139px;
 }
 
 .section-right p {
@@ -275,7 +290,7 @@ html, body {
 }
 
 .arrow-videos p {
-    color: black;
+    color: #111111;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,7 +300,7 @@ html, body {
 }
 
 .arrow-gallery p {
-    color: black;
+    color: #111111;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,7 +329,7 @@ html, body {
 
 
 .arrow-music p {
-    color: black;
+    color: #111111;
     display: flex;
     justify-content: center;
     align-items: center;
